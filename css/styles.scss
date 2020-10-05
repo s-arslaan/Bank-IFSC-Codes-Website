@@ -1,0 +1,56 @@
+$bg-dark: #0c0c5a;
+$bg-yellow: #f2db11;
+$light-gray: #f5f5f5;
+$dark-gray: #dddddd;
+
+// mixin css
+@mixin zero-margin ($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+#top-bar {
+    background-color: $bg-dark;
+    // text-align: center;
+}
+
+.navbar {
+    background-color: $bg-dark;
+    color: $bg-yellow;
+
+    .navbar-brand {
+        color: $bg-yellow;
+        font-size: xx-large;
+    }
+}
+
+#toggle-button-icon {
+    color: $bg-yellow;
+    transition: 2s;
+}
+
+.row-header {
+    @include zero-margin(0px, 0px);
+}
+
+.row-content {
+    @include zero-margin(50px, 0px);
+    border-bottom: 1px ridge;
+    min-height: 250px;
+}
+
+#active-nav {
+    color: $bg-yellow;
+}
+
+#selectBranch {
+    border-radius: 10px;
+    background-color: $light-gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: $dark-gray;
+    color: #0c0c5a;
+    @include zero-margin(20px, 0px);
+}

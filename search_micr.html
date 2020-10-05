@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <title>Bank IFSC Codes and Details</title>
+</head>
+<body>
+    <div id="top-bar" class="pt-3 pb-1 d-md-block d-none m-0">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12">
+                    <a class="text-decoration-none" href="index.html" id="active-nav">Bank IFSC Code</a>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-block d-md-none" href="index.html"><h2>Bank IFSC Codes</h2></a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <button class="btn btn-lg d-block d-md-none" id="ToggleButton">
+                <span id="toggle-button-icon" class="fa fa-bars fa-lg"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item pr-3"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item pr-3 active"><a class="nav-link" href="search_micr.html" id="active-nav"><span class="fa fa-search fa-lg"></span> Search by MICR</a></li>
+                    <li class="nav-item pr-3"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item pr-3"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-secret fa-lg"></span> Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="selectBranch">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2 class="mb-4">Search By MICR Code</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <form>
+                    <div class="form-group">
+                        <!-- <label for="searchMICR">Search</label> -->
+                        <input type="text" class="form-control" id="searchMICR" placeholder="Enter MICR" name="micr">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="search_micr.html">Search by MICR</a></li>
+                        <li><a class="text-decoration-none" href="#">About</a></li>
+                        <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-9">
+                    <p class="text-justify">Disclaimer: - We have tried our best to keep the latest information updated as available from RBI, users are requested to confirm information with the respective bank before using the information provided. The author reserves the right not to be responsible for the topicality, correctness, completeness or quality of the information provided. Liability claims regarding damage caused by the use of any information provided, including any kind of information which is incomplete or incorrect, will therefore be rejected.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+                 $('#ToggleButton').click(function() {
+                    if ($('#ToggleButton').children('span').hasClass('fa-bars'))
+                    {
+                        $('#Navbar').collapse('show'); //pause carousel
+                        $('#ToggleButton').children('span').removeClass('fa-bars');
+                        $('#ToggleButton').children('span').addClass('fa-times');
+                    }
+                    else if ($('#ToggleButton').children('span').hasClass('fa-times'))
+                    {
+                        $('#Navbar').collapse('hide'); //start carousel
+                        $('#ToggleButton').children('span').removeClass('fa-bars');
+                        $('#ToggleButton').children('span').addClass('fa-bars');
+                    }
+                });
+            });
+    </script>
+</body>
+</html>

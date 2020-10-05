@@ -1,0 +1,38 @@
+#top-bar {
+  background-color: #0c0c5a; }
+
+.navbar {
+  background-color: #0c0c5a;
+  color: #f2db11; }
+  .navbar .navbar-brand {
+    color: #f2db11;
+    font-size: xx-large; }
+
+#toggle-button-icon {
+  color: #f2db11;
+  transition: 2s; }
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 250px; }
+
+#active-nav {
+  color: #f2db11; }
+
+#selectBranch {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.footer {
+  background-color: #dddddd;
+  color: #0c0c5a;
+  margin: 0px auto;
+  padding: 20px 0px; }

@@ -1,0 +1,29 @@
+{
+  "name": "bank-ifsc",
+  "version": "1.0.0",
+  "description": "Bank Details and IFSC Code",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-arslaan/Bank-IFSC-Codes-Website.git"
+  },
+  "author": "Arslaan Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-arslaan/Bank-IFSC-Codes-Website/issues"
+  },
+  "homepage": "https://github.com/s-arslaan/Bank-IFSC-Codes-Website#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
